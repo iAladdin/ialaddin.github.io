@@ -20,22 +20,22 @@ description: "将网页版本的Weixin封装起来，支持快捷键，聊天背
 祝微信早日出官方Mac版本。
 
 
-```
-- Version August-Early [完] Download : https://github.com/iAladdin/Weixin-Mac/archive/August-Early.zip
-    - 完成快捷键呼出功能 `cmd+control+o`
-    - 完成捐赠按钮
-    - 完成壁纸功能
-    - 完成连接点击功能(打开默认浏览器)
-    - 完成基本的本地提醒功能(群多的小伙伴，你们有的烦了，因为没有和你设置的不提醒的那个同步)
-    - 支持10.8
-- Version August-Middle 
-    - 完成壁纸主题选择功能
-    - 完成提醒功能的同步的方式
-- Version Next
-    - 完成壁纸多源支持
-    - 本地壁纸提交功能
-    - 完成Native 图片预览功能
-```  
+
+    - Version August-Early [完] Download : https://github.com/iAladdin/Weixin-Mac/archive/August-Early.zip
+        - 完成快捷键呼出功能 `cmd+control+o`
+        - 完成捐赠按钮
+        - 完成壁纸功能
+        - 完成连接点击功能(打开默认浏览器)
+        - 完成基本的本地提醒功能(群多的小伙伴，你们有的烦了，因为没有和你设置的不提醒的那个同步)
+        - 支持10.8
+    - Version August-Middle 
+        - 完成壁纸主题选择功能
+        - 完成提醒功能的同步的方式
+    - Version Next
+        - 完成壁纸多源支持
+        - 本地壁纸提交功能
+        - 完成Native 图片预览功能
+
 
 
 [申请添加更多](https://github.com/iAladdin/Weixin-Mac/issues)
