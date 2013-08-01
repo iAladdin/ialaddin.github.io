@@ -9,12 +9,15 @@ description: "将网页版本的Weixin封装起来，支持快捷键，聊天背
 
 ![image](http://pic.yupoo.com/aladdin-lamps_v/D3nq8EJU/zx2Vu.png)
 
+![image](http://pic.yupoo.com/aladdin-lamps_v/D3nsQLK1/l9J0O.png)
+
 所以roadmap写在下面了，有建议的小伙伴可以直接在本页留言，会使用github issues的小伙伴，可以直接项目页面进行提交，会编码的小伙伴，可以直接fork 改完后，发pull-request，然后我们一起玩完善。
 
 最后
 祝微信早日征服QQ。
 祝微信早日出官方Mac版本。
 
+```
 - Version August-Early [完]
     - 完成快捷键呼出功能 `cmd+control+o`
     - 完成捐赠按钮
@@ -27,4 +30,7 @@ description: "将网页版本的Weixin封装起来，支持快捷键，聊天背
     - 完成壁纸多源支持
     - 本地壁纸提交功能
     - 完成Native 图片预览功能
-    - [申请添加更多](https://github.com/iAladdin/Weixin-Mac/issues)
+    
+```
+
+[申请添加更多](https://github.com/iAladdin/Weixin-Mac/issues)
