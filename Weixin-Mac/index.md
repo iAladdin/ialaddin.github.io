@@ -7,6 +7,8 @@ description: "将网页版本的Weixin封装起来，支持快捷键，聊天背
 
 最近用微信太频繁，而且是群聊，鉴于越来越频繁的使用，而微信的信息量也愈加的大的情况下。我还是决定写一个Mac端的封装，便于资料的汇总，图片下载，同步到evernote之类的功能。本来想完成多一些功能再放出来的，还是快速迭代吧...
 
+[最新版本下载](https://github.com/iAladdin/Weixin-Mac/archive/August-Early.zip)
+
 ![image](http://pic.yupoo.com/aladdin-lamps_v/D3nq8EJU/zx2Vu.png)
 
 ![image](http://pic.yupoo.com/aladdin-lamps_v/D3nsQLK1/l9J0O.png)
@@ -21,7 +23,8 @@ description: "将网页版本的Weixin封装起来，支持快捷键，聊天背
 
 
 
-    - Version August-Early [完] Download : https://github.com/iAladdin/Weixin-Mac/archive/August-Early.zip
+    - Version August-Early [完] 
+      Download : https://github.com/iAladdin/Weixin-Mac/archive/August-Early.zip
         - 完成快捷键呼出功能 `cmd+control+o`
         - 完成捐赠按钮
         - 完成壁纸功能
@@ -38,4 +41,4 @@ description: "将网页版本的Weixin封装起来，支持快捷键，聊天背
 
 
 
-[申请添加更多](https://github.com/iAladdin/Weixin-Mac/issues)
+[申请添加更多功能](https://github.com/iAladdin/Weixin-Mac/issues)
