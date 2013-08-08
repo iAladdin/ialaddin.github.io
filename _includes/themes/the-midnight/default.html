@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 ie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9 ie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>{{ page.title }}</title>
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<meta name="author" content="{{ site.author.name }}">
+	<link href='{{ ASSET_PATH }}/stylesheets/styles.css' rel="stylesheet" media="all">
+	<link href='{{ ASSET_PATH }}/stylesheets/pygment_trac.css' rel="stylesheet" media="all">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="{{ ASSET_PATH }}/javascripts/respond.js"></script>
+	 <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="{{ ASSET_PATH }}stylesheets/ie.css">
+    <![endif]-->
+	<link href='{{ ASSET_PATH }}/stylesheets/normalize.css' rel="stylesheet" media="all">
+	<link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
+
+</head>
+<body>
+<div id="header">
+        <nav>
+          {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include JB/pages_list %}
+            <li class="fork"><a href="http://github.umeng.com/SDK/status">View On GitHub</a></li>
+        </nav>
+</div><!-- end header -->
+<div class="wrapper">
+      <section>
+        <div id="title">
+          <h1>{{ site.title }}</h1>
+          <p>{{ site.slogan}}</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="http://github.umeng.com/SDK">SDK</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+        </div>
+
+					{{ content }}
+        </section>
+</div>
+  {% include JB/analytics %}
+  <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+</body>
+</html>
