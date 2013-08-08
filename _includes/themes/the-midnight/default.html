@@ -29,7 +29,7 @@
           {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
-            <li class="fork"><a href="http://github.umeng.com/SDK/status">View On GitHub</a></li>
+            <a href="{{production_url}}">{{ site.title }}</a>
         </nav>
 </div><!-- end header -->
 <div class="wrapper">
@@ -38,7 +38,7 @@
           <h1>{{ site.title }}</h1>
           <p>{{ site.slogan}}</p>
           <hr>
-          <span class="credits left">Project maintained by <a href="http://github.umeng.com/SDK">SDK</a></span>
+          <span class="credits left">Blog maintained by {{ site.author.name }}</span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
         </div>
 
