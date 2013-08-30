@@ -5,7 +5,7 @@ description: "将网页版本的Weixin封装起来，支持快捷键，聊天背
 ---
 {% include JB/setup %}
 
-8月30日 更新
+8月30日 更新  [最新版本下载](http://yun.baidu.com/share/link?shareid=3983916216&uk=2885731703&third=0)
 
 支持了本地的图片，解决了流量问题，这个事情，好开心。快捷键还是不能配置，因为没有人提。
 接下来准备支持多主题。研究研究js劫持什么的。
@@ -14,8 +14,6 @@ description: "将网页版本的Weixin封装起来，支持快捷键，聊天背
 旧：
 
 最近用微信太频繁，而且是群聊，鉴于越来越频繁的使用，而微信的信息量也愈加的大的情况下。我还是决定写一个Mac端的封装，便于资料的汇总，图片下载，同步到evernote之类的功能。本来想完成多一些功能再放出来的，还是快速迭代吧...
-
-[最新版本下载](http://yun.baidu.com/share/link?shareid=3983916216&uk=2885731703&third=0)
 
 ![image](http://i.minus.com/ibqGAg0sR5QNY2.png)
 
