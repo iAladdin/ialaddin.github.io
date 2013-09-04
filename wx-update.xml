@@ -10,6 +10,7 @@
          <description>
             更新了本地通知逻辑
             增加了本地相册的支持逻辑，功能级别暂时木有支持，后面计划添加 =D
+            增加了update检查通知机制
          </description>
             <pubDate>Wed, 04 Sep 2013 19:20:11 +0000</pubDate>
             <sparkle:releaseNotesLink>http://ialaddin.github.io/Weixin-Mac/index.html</sparkle:releaseNotesLink>
