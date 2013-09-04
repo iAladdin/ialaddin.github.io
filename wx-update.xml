@@ -14,7 +14,7 @@
          </description>
             <pubDate>Wed, 04 Sep 2013 19:20:11 +0000</pubDate>
             <sparkle:releaseNotesLink>http://ialaddin.github.io/Weixin-Mac/index.html</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/iAladdin/Weixin-Mac/archive/August-Early.zip" sparkle:version="1.2" length="1600000" type="application/octet-stream" sparkle:dsaSignature="MC0CFBfoxZHQc9lHJviF2DkTOJczXYNQAhUAlsyZ14ZtY58/QXHUtt+UjECwzn0=" />
+            <enclosure url="https://github.com/iAladdin/Weixin-Mac/archive/August-Early.zip" sparkle:version="1.2" length="1600000" type="application/octet-stream" />
          </item>
    </channel>
 </rss>
