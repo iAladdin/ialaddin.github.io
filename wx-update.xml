@@ -11,9 +11,9 @@
             更新了本地通知逻辑
             增加了本地相册的支持逻辑，功能级别暂时木有支持，后面计划添加 =D
          </description>
-            <pubDate>September 4, 2013</pubDate>
+            <pubDate>Wed, 04 Sep 2013 19:20:11 +0000</pubDate>
             <sparkle:releaseNotesLink>http://ialaddin.github.io/Weixin-Mac/index.html</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/iAladdin/Weixin-Mac/archive/August-Early.zip" sparkle:version="1.2" length="1600000" type="application/octet-stream" sparkle:dsaSignature="MCwCFHC2N13+sxcvASF3fZEfLL7Gni3IAhQ/OarNY4Sue9J9D1h6H423rgXErw==" />
+            <enclosure url="https://github.com/iAladdin/Weixin-Mac/archive/August-Early.zip" sparkle:version="1.2" length="1600000" type="application/octet-stream" sparkle:dsaSignature="MC0CFBfoxZHQc9lHJviF2DkTOJczXYNQAhUAlsyZ14ZtY58/QXHUtt+UjECwzn0=" />
          </item>
    </channel>
 </rss>
