@@ -5,6 +5,7 @@ description: "将网页版本的Weixin封装起来，支持快捷键，聊天背
 ---
 {% include JB/setup %}
 9月5日 September Early [网盘下载](http://pan.baidu.com/share/link?shareid=2367862141&uk=2885731703)
+
 - 增加关闭窗口，呼出窗口的功能
 - 增加自动更新框架
 - 增加公共账号推荐功能
