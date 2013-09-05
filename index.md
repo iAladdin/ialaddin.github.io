@@ -5,7 +5,7 @@ tagline: Weixin
 ---
 {% include JB/setup %}
 
-Weixin For Mac <span class="label label-success">September Early</span>
+[Weixin For Mac](http://ialaddin.github.io/Weixin-Mac/index.html) <span class="label label-success">September Early</span>
 <ul class="posts">
   <li><span class="label label-success">增加关闭窗口，呼出窗口的功能</span></li>
   <li><span class="label label-success">增加自动更新框架</span></li>
