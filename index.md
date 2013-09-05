@@ -1,48 +1,25 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Weixin For Mac
+tagline: Weixin
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Weixin For Mac <span class="label label-success">September Early</span>
+<ul class="posts">
+  <li><span class="label label-success">增加关闭窗口，呼出窗口的功能</span></li>
+  <li><span class="label label-success">增加自动更新框架</span></li>
+  <li><span class="label label-success">增加公共账号推荐功能</span></li>
+  <li><span class="label label-success">增加本地主题的支持逻辑，功能未开始做</span></li>
+  <li><span class="label label-warning">更改本地替换背景图片的方法</span></li>
+  <li><span class="label label-important">不支持Retina Macbook Pro，求素材，求测试设备</span></li>
+</ul>
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-
-    $ rm -rf _posts/core-samples
-
-
-Here's a sample "posts list".
 
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
