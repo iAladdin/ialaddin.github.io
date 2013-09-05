@@ -13,7 +13,7 @@ description: "将网页版本的Weixin封装起来，支持快捷键，聊天背
     - 更改本地替换背景图片的方法
 
 
-8月30日 August Late [最新版本下载](http://yun.baidu.com/share/link?shareid=3983916216&uk=2885731703&third=0)
+8月30日 August Late [网盘下载](http://yun.baidu.com/share/link?shareid=3983916216&uk=2885731703&third=0)
 
 支持了本地的图片，解决了流量问题，这个事情，好开心。快捷键还是不能配置，因为没有人提。
 接下来准备支持多主题。研究研究js劫持什么的。
