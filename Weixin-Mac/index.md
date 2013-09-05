@@ -4,6 +4,13 @@ title: "Weixin Mac App"
 description: "将网页版本的Weixin封装起来，支持快捷键，聊天背景替换，本地的通知"
 ---
 {% include JB/setup %}
+9月5日 September Early [网盘下载](http://pan.baidu.com/share/link?shareid=2367862141&uk=2885731703)
+- 增加关闭窗口，呼出窗口的功能
+- 增加自动更新框架
+- 增加公共账号推荐功能
+- 增加本地主题的支持逻辑，功能未开始做
+- 更改本地替换背景图片的方法
+
 
 8月30日 更新  [最新版本下载](http://yun.baidu.com/share/link?shareid=3983916216&uk=2885731703&third=0)
 
