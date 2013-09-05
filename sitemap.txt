@@ -1,0 +1,12 @@
+
+https://ialaddin.github.io/archive.html
+https://ialaddin.github.io/atom.xml
+https://ialaddin.github.io/categories.html
+https://ialaddin.github.io/index.html
+https://ialaddin.github.io/pages.html
+https://ialaddin.github.io/rss.xml
+https://ialaddin.github.io/sitemap.txt
+https://ialaddin.github.io/tags.html
+https://ialaddin.github.io/Weixin-Mac/index.html
+
+https://ialaddin.github.io/apps/2013/08/01/weixin-mac-app
