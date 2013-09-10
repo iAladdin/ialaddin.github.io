@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Weixin For Mac
-tagline: Weixin
+tagline: Weixin,Wechat
 ---
 {% include JB/setup %}
 
