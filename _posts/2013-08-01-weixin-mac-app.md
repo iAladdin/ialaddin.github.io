@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Weixin Mac App"
-description: "将网页版本的Weixin封装起来，支持快捷键，聊天背景替换，本地的通知"
+description: "将网页版本的微信封装起来，支持快捷键，聊天背景替换，本地的通知,Weixin For Mac,Wechat for mac"
 category: Apps
 tags: [Mac,Weixin,App]
 ---
