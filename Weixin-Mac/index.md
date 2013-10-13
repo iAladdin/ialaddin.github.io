@@ -4,14 +4,14 @@ title: "Weixin Mac App"
 description: "将网页版本的Weixin封装起来，支持快捷键，聊天背景替换，本地的通知. Weixin For Mac,Wechat for Mac"
 ---
 {% include JB/setup %}
+10月13日 1.3 [网盘下载](http://pan.baidu.com/s/1d0I5g)
+    
+    - Version 1.3
+        - 更新了 ICON 和部分 UI 交互
+        - 如果遇到了无法加载微信登录二维码的情况，请耐心等待，还不知道原因，但通常等待可以解决。
+
+
 9月5日 September Early [网盘下载](http://pan.baidu.com/share/link?shareid=2367862141&uk=2885731703)
-
-    - 增加关闭窗口，呼出窗口的功能
-    - 增加自动更新框架
-    - 增加公共账号推荐功能
-    - 增加本地主题的支持逻辑，功能未开始做
-    - 更改本地替换背景图片的方法
-
 
 8月30日 August Late [网盘下载](http://yun.baidu.com/share/link?shareid=3983916216&uk=2885731703&third=0)
 
@@ -48,9 +48,13 @@ description: "将网页版本的Weixin封装起来，支持快捷键，聊天背
         - 完成对服务器端的依赖，完全本地主题包
         - 支持窗口大小调整
     - Version September-Early 
-        - 完成在线主题的支持
-        - 完成公共账号的推荐
-        - 完成Native 图片预览功能
+        - 增加关闭窗口，呼出窗口的功能
+        - 增加自动更新框架
+        - 增加公共账号推荐功能
+        - 增加本地主题的支持逻辑，功能未开始做
+        - 更改本地替换背景图片的方法
+    - Version 1.3
+        -   
 
 
 
