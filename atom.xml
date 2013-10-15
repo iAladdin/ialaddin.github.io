@@ -4,7 +4,7 @@
  <title>小仓库</title>
  <link href="https://ialaddin.github.io/" rel="self"/>
  <link href="https://ialaddin.github.io"/>
- <updated>2013-09-11T15:00:58+08:00</updated>
+ <updated>2013-10-15T11:08:48+08:00</updated>
  <id>https://ialaddin.github.io</id>
  <author>
    <name>iAladdin</name>
@@ -17,7 +17,9 @@
    <link href="https://ialaddin.github.io/apps/2013/08/01/weixin-mac-app"/>
    <updated>2013-08-01T00:00:00+08:00</updated>
    <id>https://ialaddin.github.io/apps/2013/08/01/weixin-mac-app</id>
-   <content type="html">&lt;p&gt;最近用微信太频繁，而且是群聊，鉴于越来越频繁的使用，而微信的信息量也愈加的大的情况下。我还是决定写一个Mac端的封装，便于资料的汇总，图片下载，同步到evernote之类的功能。本来想完成多一些功能再放出来的，还是快速迭代吧&amp;#8230;&lt;/p&gt;</content>
+   <content type="html">
+&lt;p&gt;最近用微信太频繁，而且是群聊，鉴于越来越频繁的使用，而微信的信息量也愈加的大的情况下。我还是决定写一个Mac端的封装，便于资料的汇总，图片下载，同步到evernote之类的功能。本来想完成多一些功能再放出来的，还是快速迭代吧&lt;/p&gt;
+</content>
  </entry>
  
  
