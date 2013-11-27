@@ -3,7 +3,7 @@ layout: page
 title: "Weixin Mac App"
 description: "将网页版本的Weixin封装起来，支持快捷键，聊天背景替换，本地的通知. Weixin For Mac,Wechat for Mac"
 ---
-{% include JB/setup %}
+
 10月13日 1.3 [网盘下载](http://pan.baidu.com/s/1d0I5g)
     
     - Version 1.3 [完]
