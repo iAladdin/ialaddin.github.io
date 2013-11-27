@@ -5,25 +5,25 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Page Not Found &#8211; Site Title</title>
-<meta name="description" content="Page not found. Your pixels are in another canvas.">
-
+<title>Sample Link Post &#8211; Site Title</title>
+<meta name="description" content="Example and code for using link posts.">
+<meta name="keywords" content="sample post, link post">
 
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Page Not Found">
-<meta property="og:description" content="Page not found. Your pixels are in another canvas.">
-<meta property="og:url" content="http://localhost:4000/404.html">
+<meta property="og:title" content="Sample Link Post">
+<meta property="og:description" content="Example and code for using link posts.">
+<meta property="og:url" content="http://localhost:4000/articles/sample-link-post">
 <meta property="og:site_name" content="Site Title">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/404.html">
+<link rel="canonical" href="http://localhost:4000/articles/sample-link-post">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Site Title Feed">
 
 
@@ -58,7 +58,7 @@
 
 </head>
 
-<body id="page" itemscope itemtype="http://schema.org/WebPage">
+<body id="post" itemscope itemtype="http://schema.org/WebPage">
 
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop" itemscope itemtype="http://schema.org/SiteNavigationElement">
@@ -113,27 +113,29 @@
 </header><!-- /.masthead -->
 
 
-<div id="main" role="main" itemprop="mainContentOfPage">
-  <article class="entry" itemscope>
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+  <article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title" itemprop="name">Page Not Found</h1>
+        <span class="entry-tags"><a href="http://localhost:4000/tags.html#sample post" title="Pages tagged sample post" rel="tag">sample post</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags.html#link post" title="Pages tagged link post" rel="tag">link post</a></span>
+        
+          <h1 class="entry-title" itemprop="headline"><a href="http://mademistakes.com">Sample Link Post <span class="link-arrow">&rarr;</span></a></h1>
+        
       </header>
+      <footer class="entry-meta">
+        <img src="http://localhost:4000/images/bio-photo.jpg" alt="Your Name photo" class="author-photo">
+        <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="http://localhost:4000/about" title="About Your Name" itemprop="url">Your Name</a></span></span>
+        <span class="entry-date date published"><time datetime="2013-08-12T00:00:00-04:00" itemprop="datePublished"><i class="icon-calendar-empty"></i> August 12, 2013</time></span>
+        
+        
+        <span><a href="http://localhost:4000/articles/sample-link-post" rel="bookmark" title="Sample Link Post" itemprop="url"><i class="icon-link"></i> Permalink</a></span>
+      </footer>
       <div class="entry-content" itemprop="description">
-        <p>Sorry, but the page you were trying to view does not exist — perhaps you can try searching for it below.</p>
+        <p>So Simple Theme now supports <strong>link posts</strong>, made famous by John Gruber. To activate just add <code>link: http://url-you-want-linked</code> to the post’s YAML front matter and you’re done.</p>
 
-<script type="text/javascript">
-  var GOOG_FIXURL_LANG = 'en';
-  var GOOG_FIXURL_SITE = 'http://localhost:4000'
-</script>
-
-<script type="text/javascript" src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js">
-</script>
-
-
-      </div><!-- /.entry-content -->
-        <!-- Duoshuo Comment BEGIN -->
+        <div id="disqus_thread">
+          <!-- Duoshuo Comment BEGIN -->
           <div class="ds-thread"></div>
             <script type="text/javascript">
               var duoshuoQuery = {short_name:"ialaddin"};
@@ -147,8 +149,17 @@
               })();
             </script>
         <!-- Duoshuo Comment END -->
+        </div><!-- /#disqus_thread -->
+      </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
-
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://localhost:4000/apps/weixin-mac-app" class="btn" title="Weixin Mac App">Previous article</a>
+      
+      
+        <a href="http://localhost:4000/articles/code-highlighting-post" class="btn" title="Syntax Highlighting Post">Next article</a>
+      
+    </nav><!-- /.pagination -->
   </article>
 </div><!-- /#main -->
 
@@ -209,7 +220,7 @@
 </script>
 
 
-          
+	        
 
 </body>
 </html>
