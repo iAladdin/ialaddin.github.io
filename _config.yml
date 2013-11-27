@@ -1,4 +1,4 @@
-title:            Site Title
+title:            AZLog
 description:      Describe your website here.
 logo:             site-logo.png
 disqus_shortname: 
@@ -8,7 +8,7 @@ url:              http://ialaddin.github.io
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           iAladdin
   avatar:         bio-photo.jpg
   email:          ialaddin@me.com
   # Social networking links used in footer. Update and remove as you like.
