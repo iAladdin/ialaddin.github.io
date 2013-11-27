@@ -4,8 +4,8 @@ logo:             alog-site-logo.png
 disqus_shortname: 
 search:           true
 #Change url to your domain. Leave localhost server or blank when working locally.
-#url:              http://ialaddin.github.io
-url:              http://localhost:4000
+url:              http://ialaddin.github.io
+# url:              http://localhost:4000
 
 # Owner/author information
 owner:
@@ -13,16 +13,16 @@ owner:
   avatar:         bio-photo.jpg
   email:          ialaddin@me.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
-  stackexchange:  
-  linkedin:       
-  instagram:      
+  twitter:        iAladdin
+  facebook:       ialaddin.z
+  github:         iAladdin
+  stackexchange:  iAladdin
+  linkedin:       ialaddin
+  instagram:      ialaddin
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:    +AladdinZ
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
