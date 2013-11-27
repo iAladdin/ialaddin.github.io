@@ -17,14 +17,6 @@
 		} ,
 	
 		{
-		  "title"      : "Weixin Mac App",
-		  "category"   : "Apps",
-		  "url"        : "http://ialaddin.github.io/apps/weixin-mac-app",
-		  "date"       : "2013-08-01 00:00:00 -0400",
-		  "shortdate"  : "August 01, 2013"
-		} ,
-	
-		{
 		  "title"      : "A Post with a Video",
 		  "category"   : "articles",
 		  "url"        : "http://ialaddin.github.io/articles/video-post",
