@@ -9,16 +9,12 @@ image:
 comments: true  
 ---
 
-10月13日 1.3 [网盘下载](http://pan.baidu.com/s/1d0I5g)
+10月13日 1.3 <a href="http://pan.baidu.com/s/1d0I5g" class="btn" title="网盘下载">网盘下载</a>
     
     - Version 1.3 [完]
         - 更新了 ICON 和部分 UI 交互
         - 如果遇到了无法加载微信登录二维码的情况，请耐心等待，还不知道原因，但通常等待可以解决。
 
-
-9月5日 September Early [网盘下载](http://pan.baidu.com/share/link?shareid=2367862141&uk=2885731703)
-
-8月30日 August Late [网盘下载](http://yun.baidu.com/share/link?shareid=3983916216&uk=2885731703&third=0)
 
 支持了本地的图片，解决了流量问题，这个事情，好开心。快捷键还是不能配置，因为没有人提。
 接下来准备支持多主题。研究研究js劫持什么的。
@@ -38,7 +34,6 @@ comments: true
 
 
     - Version August-Early [完] 
-      Download : https://github.com/iAladdin/Weixin-Mac/archive/August-Early.zip
         - 完成快捷键呼出功能 `cmd+control+o`
         - 完成捐赠按钮
         - 完成壁纸功能
@@ -60,5 +55,4 @@ comments: true
         - 如果遇到了无法加载微信登录二维码的情况，请耐心等待，还不知道原因，但通常等待可以解决。
 
 
-
-[申请添加更多功能](https://github.com/iAladdin/Weixin-Mac/issues)
+<a href="https://github.com/iAladdin/Weixin-Mac/issues" class="btn" title="申请添加更多功能">申请添加更多功能</a>
