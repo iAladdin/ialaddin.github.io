@@ -6,9 +6,9 @@ modified: 2013-05-31
 category: articles
 tags: [sample post]
 image:
-  feature: so-simple-sample-image-1.jpg
-  credit: Michael Rose
-  creditlink: http://mademistakes.com
+  feature: Weixin-1.3.png
+  credit: iAladdin
+  creditlink: http://ialaddin.github.io
 comments: true  
 ---
 
