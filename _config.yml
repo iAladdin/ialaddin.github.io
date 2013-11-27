@@ -4,7 +4,8 @@ logo:             alog-site-logo.png
 disqus_shortname: 
 search:           true
 #Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://ialaddin.github.io
+#url:              http://ialaddin.github.io
+url:              http://localhost:4000
 
 # Owner/author information
 owner:
@@ -38,12 +39,14 @@ links:
     url: /articles
   - title: Weixin-Mac
     url: /Weixin-Mac/index.html
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  - title: iOSDev
+    url: /iOS-Dev/index.html
+  # - title: Made Mistakes
+  #   url: http://mademistakes.com
+  #   external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Shanghai
 future:      true
 pygments:    true
 markdown:    kramdown
