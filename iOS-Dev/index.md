@@ -6,7 +6,7 @@ modified: 2013-05-31
 category: articles
 tags: [sample post]
 image:
-  feature: Weixin-1.3.png
+  feature: iOS-Dev-Tool.png
   credit: iAladdin
   creditlink: http://ialaddin.github.io
 comments: true  
@@ -16,3 +16,6 @@ comments: true
 Images:
 
 online icon maker: http://iconverticons.com/online/#
+
+Fonts:
+http://iosfonts.com
