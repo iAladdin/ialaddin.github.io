@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>猫宅记📝</title>
+    <link>http://example.org/zh/</link>
+    <description>Recent content on 猫宅记📝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>ialaddin@me.com (iAladdin)</managingEditor>
+    <webMaster>ialaddin@me.com (iAladdin)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 30 Jan 2020 12:50:46 +0900</lastBuildDate>
+    
+        <atom:link href="http://example.org/zh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>About</title>
+        <link>http://example.org/zh/about/</link>
+        <pubDate>Thu, 30 Jan 2020 12:50:46 +0900</pubDate>
+        <author>ialaddin@me.com (iAladdin)</author>
+        <guid>http://example.org/zh/about/</guid>
+        <description></description>
+      </item>
+      
+    
+  </channel>
+</rss>

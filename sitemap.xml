@@ -1,8 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>http://ialaddin.github.io</loc>
-    </url>
-    
-    
-</urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>http://example.org/en/sitemap.xml</loc>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://example.org/zh/sitemap.xml</loc>
+		
+	   	<lastmod>2020-01-30T12:50:46+09:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>
