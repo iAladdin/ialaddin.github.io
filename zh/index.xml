@@ -9,12 +9,21 @@
     <managingEditor>ialaddin@me.com (iAladdin)</managingEditor>
     <webMaster>ialaddin@me.com (iAladdin)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 30 Jan 2020 12:50:46 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 11 Feb 2020 12:29:10 +0800</lastBuildDate>
     
         <atom:link href="http://ialaddin.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>Archive</title>
+        <link>http://ialaddin.github.io/zh/archive/</link>
+        <pubDate>Tue, 11 Feb 2020 12:29:10 +0800</pubDate>
+        <author>ialaddin@me.com (iAladdin)</author>
+        <guid>http://ialaddin.github.io/zh/archive/</guid>
+        <description>archive page</description>
+      </item>
       
       <item>
         <title>About</title>
@@ -23,15 +32,6 @@
         <author>ialaddin@me.com (iAladdin)</author>
         <guid>http://ialaddin.github.io/zh/about/</guid>
         <description>About it </description>
-      </item>
-      
-      <item>
-        <title>Archive</title>
-        <link>http://ialaddin.github.io/zh/archive/</link>
-        <pubDate>Sat, 19 Oct 2019 11:44:14 +0900</pubDate>
-        <author>ialaddin@me.com (iAladdin)</author>
-        <guid>http://ialaddin.github.io/zh/archive/</guid>
-        <description>archive page</description>
       </item>
       
     
