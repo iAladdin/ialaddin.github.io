@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>猫宅记📝</title>
-    <link>http://ialaddin.github.io/zh/</link>
-    <description>Recent content on 猫宅记📝</description>
+    <title>bt网址 on 猫宅记📝</title>
+    <link>http://ialaddin.github.io/zh/tags/bt%E7%BD%91%E5%9D%80/</link>
+    <description>Recent content in bt网址 on 猫宅记📝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>ialaddin@me.com (iAladdin)</managingEditor>
@@ -11,7 +11,7 @@
     <copyright>©{year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 13 Feb 2020 12:00:06 +0900</lastBuildDate>
     
-        <atom:link href="http://ialaddin.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://ialaddin.github.io/zh/tags/bt%E7%BD%91%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -23,15 +23,6 @@
         <author>ialaddin@me.com (iAladdin)</author>
         <guid>http://ialaddin.github.io/zh/bt-sites/best-bt-sites/</guid>
         <description>最近尝试找一些资源，搜集一些磁力链搜索的网站，为了自己方便，总结到这里，会持续更新整理。 国外网站 Torrents Me Torrents Me 是一个好站，这里有他们总结的排名，同</description>
-      </item>
-      
-      <item>
-        <title>Emoji Support</title>
-        <link>http://ialaddin.github.io/zh/posts/new-pages/</link>
-        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
-        <author>ialaddin@me.com (iAladdin)</author>
-        <guid>http://ialaddin.github.io/zh/posts/new-pages/</guid>
-        <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
       </item>
       
     
