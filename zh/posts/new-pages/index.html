@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Emoji Support – 猫宅记📝</title>
+    <title>New Pages – 猫宅记📝</title>
     
 
 
@@ -1141,21 +1141,21 @@
 
 
     
-<meta name="description" content="Guide to emoji usage in Hugo" />
+<meta name="description" content="新篇章" />
 <meta name="keywords" content="">
 <meta name="created" content="2019-12-16T12:00:06&#43;0900">
 <meta name="modified" content="2019-12-16T12:00:06&#43;0900">
 <meta property="article:published_time" content="2019-12-16T12:00:06&#43;0900">
 
-<meta name="author" content="Kim">
-<meta property="article:author" content="http://ialaddin.github.io/zh/posts/new-pages/@Kim">
+<meta name="author" content="Aladdin">
+<meta property="article:author" content="http://ialaddin.github.io/zh/posts/new-pages/@Aladdin">
 
 
 <meta property="og:site_name" content="猫宅记📝">
-<meta property="og:title" content="Emoji Support">
+<meta property="og:title" content="New Pages">
 <meta property="og:url" content="http://ialaddin.github.io/zh/posts/new-pages/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="Guide to emoji usage in Hugo">
+<meta property="og:description" content="新篇章">
 
 <meta name="generator" content="Hugo 0.64.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
@@ -1172,15 +1172,14 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "Emoji Support",
+    "headline": "New Pages",
     "datePublished": "2019-12-16T12:00:06+09:00",
     "dateModified": "2019-12-16T12:00:06+09:00",
     "url" : "http://ialaddin.github.io/zh/posts/new-pages/",
-    "description": "Guide to emoji usage in Hugo",
-    "keywords": ["emoji","gamoji","namoji","bamoji","amoji"],
+    "description": "新篇章",
     "author": {
       "@type": "Person",
-      "name": "Kim"
+      "name": "Aladdin"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -1391,7 +1390,7 @@
   
   <li  class="is-active" >
     
-      <span>Emoji Support</span>
+      <span>New Pages</span>
     
   </li>
   
@@ -1404,11 +1403,11 @@
   </noscript>
   <div class="single hide">
     <script>document.querySelector('.single').classList.remove('hide')</script>
-    <h2 class="single__title">Emoji Support</h2>
+    <h2 class="single__title">New Pages</h2>
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="创建日期">📅&nbsp;2019年12月16日 </time>  &middot; <span class="single__info" title="阅读时长"> ☕ 1 分钟 </span>&middot; <span class="single__info" title="作者">👻&nbsp;Kim</span>
+  <time class="single__info" title="创建日期">📅&nbsp;2019年12月16日 </time>  &middot; <span class="single__info" title="阅读时长"> ☕ 1 分钟 </span>&middot; <span class="single__info" title="作者">🐱&nbsp;Aladdin</span>
   <span class="single__info">
     
   </span>
@@ -1416,57 +1415,12 @@
       
 <div class="single__tags caption">
 
-  
-    🏷️
-  
-  
-    <li><a href="http://ialaddin.github.io/zh/tags/emoji/" class="single__tag" title="emoji">#emoji</a></li>
-  
-
-  
-  
-    <li><a href="http://ialaddin.github.io/zh/tags/gamoji/" class="single__tag" title="gamoji">#gamoji</a></li>
-  
-
-  
-  
-    <li><a href="http://ialaddin.github.io/zh/tags/namoji/" class="single__tag" title="namoji">#namoji</a></li>
-  
-
-  
-  
-    <li><a href="http://ialaddin.github.io/zh/tags/bamoji/" class="single__tag" title="bamoji">#bamoji</a></li>
-  
-
-  
-  
-    <li><a href="http://ialaddin.github.io/zh/tags/amoji/" class="single__tag" title="amoji">#amoji</a></li>
-  
-
 </div>
     </div>
     <article class="single__contents" data-dir="ltr">
       
-      <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
-<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
-<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>🙈</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>🙉</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>🙊</code></span></p>
-<br>
-<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
-<hr />
-<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html">.emoji {
-font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
-}</code></pre></td></tr></table>
-</div>
-</div>
+      <p>开启新篇章。</p>
+
     </article>
     <script>
   'use strict';
@@ -1532,7 +1486,7 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
       
     
       
-        <a href="https://twitter.com/intent/tweet?text=Emoji%20Support&url=http%3a%2f%2fialaddin.github.io%2fzh%2fposts%2fnew-pages%2f&hashtags=emoji%2cgamoji%2cnamoji%2cbamoji%2camoji&via=Kim" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://twitter.com/intent/tweet?text=New%20Pages&url=http%3a%2f%2fialaddin.github.io%2fzh%2fposts%2fnew-pages%2f&via=Aladdin" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
         </a>
       
@@ -1589,7 +1543,7 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
     </div>
     <div class="whoami__title">
       
-        Kim
+        Aladdin
       
     </div>
     <div class="whoami__desc">
