@@ -9,11 +9,57 @@
     <managingEditor>ialaddin@me.com (iAladdin)</managingEditor>
     <webMaster>ialaddin@me.com (iAladdin)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 16 Dec 2019 12:00:06 +0900</lastBuildDate>
     
         <atom:link href="http://ialaddin.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>amoji</title>
+        <link>http://ialaddin.github.io/zh/tags/amoji/</link>
+        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
+        <author>ialaddin@me.com (iAladdin)</author>
+        <guid>http://ialaddin.github.io/zh/tags/amoji/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>bamoji</title>
+        <link>http://ialaddin.github.io/zh/tags/bamoji/</link>
+        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
+        <author>ialaddin@me.com (iAladdin)</author>
+        <guid>http://ialaddin.github.io/zh/tags/bamoji/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>emoji</title>
+        <link>http://ialaddin.github.io/zh/tags/emoji/</link>
+        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
+        <author>ialaddin@me.com (iAladdin)</author>
+        <guid>http://ialaddin.github.io/zh/tags/emoji/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>gamoji</title>
+        <link>http://ialaddin.github.io/zh/tags/gamoji/</link>
+        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
+        <author>ialaddin@me.com (iAladdin)</author>
+        <guid>http://ialaddin.github.io/zh/tags/gamoji/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>namoji</title>
+        <link>http://ialaddin.github.io/zh/tags/namoji/</link>
+        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
+        <author>ialaddin@me.com (iAladdin)</author>
+        <guid>http://ialaddin.github.io/zh/tags/namoji/</guid>
+        <description></description>
+      </item>
       
     
   </channel>
