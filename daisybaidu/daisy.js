@@ -76,7 +76,6 @@ daisy.Sunburst = (data) => {
       root = JSON.parse(data);
     }
     root = d3.hierarchy(root);
-    console.log(root);
     root.sum(d => d.size);
 
     const slice = svg.selectAll('g.slice').data(partition(root).descendants());
@@ -105,7 +104,6 @@ daisy.Sunburst = (data) => {
           .style('top', d3.event.clientY + window.scrollY + 'px')
           .select('#value')
           .html(() => {
-            console.log(d);
             return (
               "<div style='background-color: #4a4; width:auto; height:auto; color: white; padding: 15px; text-align: middle; border: dotted 1px black;'><strong>" +
               d.data.name +
@@ -118,7 +116,6 @@ daisy.Sunburst = (data) => {
         // d3.select(d.path).style('fill', '#c00');
       })
       .on('mouseout', d => {
-        console.log(d);
         d3.select('#tooltip').classed('hidden', true);
         // d3.select(d.path).style('fill', d.fill);
       });
