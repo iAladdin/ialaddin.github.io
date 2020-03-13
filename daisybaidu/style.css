@@ -1,0 +1,112 @@
+body {
+  font-family: Sans-serif;
+  font-size: 11px;
+}
+
+.slice {
+  cursor: pointer;
+}
+
+.slice .main-arc {
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.slice .hidden-arc {
+  fill: none;
+}
+
+.slice text {
+  pointer-events: none;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+.tooltip {
+  position: absolute;
+  max-width: 400px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+.tooltip p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+.hidden {
+  display: none;
+}
+g.arc path:hover {
+  fill: orange;
+}
+
+#chartContainer {
+  padding-top: 0px;
+}
+
+.action-zone {
+  min-height: 10px;
+  height: 65px;
+  width: 50vw;
+  padding: 0px;
+  margin: 0px;
+}
+
+#dropzone {
+  margin-bottom: 3rem;
+}
+
+.dropzone {
+  border: 2px dashed #0087f7;
+  border-radius: 5px;
+  background: white;
+}
+.dropzone .dz-message {
+  font-weight: 400;
+}
+.dropzone .dz-message .note {
+  font-size: 0.8em;
+  font-weight: 200;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.dz-error-message,
+.dz-success-mark,
+.dz-error-mark,
+.dz-progress {
+  opacity: 0 !important;
+}
+
+.dz-preview {
+  padding: 0px !important;
+  margin: 10px 20vw !important;
+}
+.dz-image {
+  height: 40px !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  border-radius: 4px !important;
+}
+.dz-filename,
+.dz-details,
+.dz-size {
+  padding: 0px !important;
+  margin: 0px !important;
+}

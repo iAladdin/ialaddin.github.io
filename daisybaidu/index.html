@@ -1,0 +1,86 @@
+<head>
+  <meta charset="UTF-8" />
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link
+    rel="stylesheet"
+    href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+    type="text/css"
+  />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.amber-pink.min.css" />
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.17.0/js/canvas-to-blob.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.0/min/dropzone.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./basic.css" />
+  <link rel="stylesheet" type="text/css" href="./dropzone.css" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <script type="text/javascript" src="./daisy.js"></script>
+</head>
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">DaisyBaiduDisk</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <form
+          action="/upload"
+          class="action-zone dropzone needsclick dz-clickable"
+          id="chartUpload"
+        >
+          <div class="dz-message needsclick">
+            <button type="button" class="dz-button">拖拽或点击选择云盘分析文件到这里</button><br />
+            <span class="note needsclick"
+              >(文件不会上传到任何服务器，仅用于图表绘制展示，请自行保管文件安全。)</span
+            >
+          </div>
+        </form>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+      <div id="chartContainer"></div>
+    </main>
+  </div>
+
+  <script>
+    /**
+     * Replaces the XHR's send operation so that the stream can be
+     * retrieved on the client side instead being sent to the server.
+     * The function name is a little confusing (other than it replaces the "send"
+     * from Dropzonejs) because really what it's doing is reading the file and
+     * NOT sending to the server.
+     */
+    daisy.Sunburst();
+    Dropzone.options.chartUpload = {
+      paramName: 'file', // The name that will be used to transfer the file
+      maxFilesize: 20, // MB
+      autoProcessQueue: false,
+      maxFiles: 1,
+      dictResponseError: 'Server not Configured',
+      acceptedFiles: '.json',
+      accept: function(file, done) {
+        file.text().then(content => {
+          d3.select('#chartSVG')
+            .transition()
+            .ease(d3.easeLinear)
+            .duration(100)
+            .remove()
+            .on('end', function() {
+              daisy.Sunburst(content);
+              done();
+            });
+        });
+        // done("Naha, you don't.");
+      },
+      init: function() {
+        this.on('addedfile', function() {
+          if (this.files[1] != null) {
+            this.removeFile(this.files[0]);
+          }
+        });
+      },
+    };
+  </script>
+</body>
